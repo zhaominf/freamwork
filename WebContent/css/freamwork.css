@@ -1,0 +1,110 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+.Container {
+	width: 100%;
+	margin: 0 auto; /*设置整个容器在浏览器中水平居中*/
+	background-color: red;
+}
+
+.Header {
+	background: #C9F;
+	width: 100%;
+	height:80px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#3992d0), to(#317eb4));/*谷歌*/ 
+}
+.menubar{
+	background: #C9F;
+	width: 100%;
+	height:30px;
+	overflow: hidden;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	text-align: center;
+	background-color: #ff0061;
+}
+.menubar-Left {
+	position: relative;
+	height: 100%;
+	width: 15%;
+	top:0px;
+	left:0px;
+	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#317eb4), to(#3992d0));/*谷歌*/ 
+}
+
+.menubar-Main {
+	height: 100%;
+	width: 85%;
+	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#317eb4), to(#3992d0));/*谷歌*/
+	text-align:left; 
+}
+.logo {
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.Content {
+	position: absolute !important;
+	position: relative;
+	top: 110px !important;
+	top: 0;
+	bottom: 22px;
+	width: 100%;
+	overflow: hidden;
+	height: auto !important;
+	height: 100%;
+}
+
+.main {
+	height: 100%;
+	background: #66CCFF;
+	overflow-y: auto;
+	text-align: center;
+}
+
+.Content-Left {
+	position: relative;
+	height: 100%;
+	width: 20%;
+	top:0px;
+	left:0px;
+	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+	background-color: black;
+}
+
+.Content-Main {
+	height: 100%;
+	width: 85%;
+	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+	background-color: #ffffff;
+	overflow: auto;
+}
+/*注：Content-Left和Content-Main元素是Content元素的子元素，两个元素使用了float:left;设置成两列，这个两个元素的宽度和这个两个元素设置的padding、margin的和一定不能大于父层Content元素的宽度，否则设置列将失败*/
+.Footer {
+	background: #9CF;
+	width: 100%;
+	height: 30px;
+	color: #e1efff;
+	line-height: 32px;
+	letter-spacing: 1px;
+	text-align: center;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#317eb4), to(#3992d0));/*谷歌*/ 
+}
+
+.Clear {
+	clear: both;
+}
