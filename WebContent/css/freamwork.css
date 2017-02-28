@@ -17,7 +17,10 @@ html, body {
 	top: 0;
 	width: 100%;
 	text-align: center;
-	background:-webkit-gradient(linear,0 50%,100% 50%,from(#3992d0), to(#317eb4));/*谷歌*/ 
+	background: -webkit-linear-gradient(left,#3992d0,#317eb4); /* Safari 5.1 - 6 */
+  	background: -o-linear-gradient(right,#3992d0,#317eb4); /* Opera 11.1 - 12*/
+  	background: -moz-linear-gradient(right,#3992d0,#317eb4); /* Firefox 3.6 - 15*/
+  	background: linear-gradient(to right, #3992d0, #317eb4); /* 标准的语法 */
 }
 .menubar{
 	background: #C9F;
@@ -37,14 +40,20 @@ html, body {
 	top:0px;
 	left:0px;
 	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
-	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#317eb4), to(#3992d0));/*谷歌*/ 
+	background: -webkit-linear-gradient(#3992d0,#317eb4); /* Safari 5.1 - 6 */
+  	background: -o-linear-gradient(#3992d0,#317eb4); /* Opera 11.1 - 12*/
+  	background: -moz-linear-gradient(#3992d0,#317eb4); /* Firefox 3.6 - 15*/
+  	background: linear-gradient(#3992d0, #317eb4); /* 标准的语法 */
 }
 
 .menubar-Main {
 	height: 100%;
 	width: 85%;
 	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
-	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#317eb4), to(#3992d0));/*谷歌*/
+	background: -webkit-linear-gradient(#3992d0,#317eb4); /* Safari 5.1 - 6 */
+  	background: -o-linear-gradient(#3992d0,#317eb4); /* Opera 11.1 - 12*/
+  	background: -moz-linear-gradient(#3992d0,#317eb4); /* Firefox 3.6 - 15*/
+  	background: linear-gradient(#3992d0, #317eb4); /* 标准的语法 */
 	text-align:left; 
 }
 .logo {
@@ -102,7 +111,10 @@ html, body {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background:-webkit-gradient(linear,0 50%,100% 50%,from(#317eb4), to(#3992d0));/*谷歌*/ 
+	background: -webkit-linear-gradient(#317eb4,#3992d0); /* Safari 5.1 - 6 */
+  	background: -o-linear-gradient(#317eb4,#3992d0); /* Opera 11.1 - 12*/
+  	background: -moz-linear-gradient(#317eb4,#3992d0); /* Firefox 3.6 - 15*/
+  	background: linear-gradient(#317eb4, #3992d0); /* 标准的语法 */
 }
 
 .Clear {

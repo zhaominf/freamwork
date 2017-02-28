@@ -1,28 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8"%>
-<%
-	String path = request.getContextPath();
-%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="<%=path%>/css/freamwork.css" rel="stylesheet"
-	type="text/css" />
-<link href="<%=path%>/css/menu.css" rel="stylesheet" type="text/css" />
-<link href="<%=path%>/css/button.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/css/freamwork.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/css/menu.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/css/button.css" rel="stylesheet" type="text/css" />
 <title>首页</title>
 <script type="text/javascript" src="<%=path%>/js/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="<%=path%>/js/app.js"></script>
 <script type="text/javascript">
-	$(".leftsidebar_box dt").css({
-		"background-color" : "#3992d0"
-	});
-	$(".leftsidebar_box dt img").attr("src", "images/left/select_xl01.png");
 
 	$(document).ready(
 			function() {
-
+				$(".leftsidebar_box dt").css({
+					"background-color" : "#3992d0"
+				});
+				$(".leftsidebar_box dt img").attr("src", "images/left/select_xl01.png");
 				$(".leftsidebar_box dd").hide();
 				$(".leftsidebar_box dt")
 						.click(

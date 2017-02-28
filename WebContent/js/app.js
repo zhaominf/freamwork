@@ -3,7 +3,7 @@
  */
 $.fn.createPage = function(nodecode) {
 	
-	var page = $("div[nodecode='"+nodecode+"']");
+	var page = $("div[dynamicpage][nodecode='"+nodecode+"']");
 	if (page.length>0)
 	{
 		return $(this).showPage(nodecode);
@@ -65,8 +65,13 @@ $.fn.createPage = function(nodecode) {
 	
 }
 $.fn.deletePage = function(nodecode){
-	$("div[nodecode='"+nodecode+"']").remove();
-	$("div[dynamicpage]:last-child").show();
+	$("div[dynamicpage][nodecode='"+nodecode+"']").remove();
+	$("div[dynamicbutton][nodecode='"+nodecode+"']").remove();
+	if($(this).parent().hasClass("buttonclick"))
+	{
+		$("div[dynamicpage]:last-child").show();
+		$("div[dynamicbutton]:last-child").showbutton($("div[dynamicbutton]:last-child").attr("nodecode"));
+	}
 }
 $.fn.showPage = function(nodecode){
 	$("div[dynamicpage]").each(function(){
