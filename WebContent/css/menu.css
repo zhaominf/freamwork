@@ -3,7 +3,7 @@ img {
 }
 
 * {
-	font-family: 'Î¢ÈíÑÅºÚ';
+	font-family: 'å¾®è½¯é›…é»‘';
 	font-size: 12px;
 	color: #626262;
 }
@@ -28,7 +28,7 @@ a {
 	width: 15%;
 	top:0px;
 	left:0px;
-	float: left; /*ÉèÖÃ¸¡¶¯£¬ÊµÏÖ¶àÁĞĞ§¹û£¬div+Css²¼¾ÖÖĞºÜÖØÒªµÄ*/
+	float: left; /*è®¾ç½®æµ®åŠ¨ï¼Œå®ç°å¤šåˆ—æ•ˆæœï¼Œdiv+Csså¸ƒå±€ä¸­å¾ˆé‡è¦çš„*/
 	overflow: auto;
 	background-color: #3992d0;
 }

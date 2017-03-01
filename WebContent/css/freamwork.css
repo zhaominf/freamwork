@@ -2,9 +2,43 @@ html, body {
 	margin: 0;
 	height: 100%;
 }
+.loginmain{
+	width: 100%;
+	height:100%;
+	margin: 0 auto; /*è®¾ç½®æ•´ä¸ªå®¹å™¨åœ¨æµè§ˆå™¨ä¸­æ°´å¹³å±…ä¸­*/
+	background:-webkit-radial-gradient(#ffffff, #3992d0);
+}
+.logincenter{
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width:50%;
+	height:50%;
+	margin:auto;
+	background-color:#317eb4;
+	border-radius:5px
+	-webkit-box-shadow:inset 0 0 20px #ffffff;
+    -moz-box-shadow:inset 0 0 20px #ffffff;
+  	box-shadow:inset 0 0 20px #ffffff;
+}
+.login{
+	position: absolute;
+	top:15px;
+	left:15px;
+	bottom:15px;
+	right:15px;
+	margin:auto;
+	background-color:#2e88c0;
+	border-radius:10px
+	-webkit-box-shadow: 0 0 20px #ffffff;
+    -moz-box-shadow: 0 0 20px #ffffff;
+  	box-shadow: 0 0 20px #ffffff;
+}
 .Container {
 	width: 100%;
-	margin: 0 auto; /*ÉèÖÃÕû¸öÈİÆ÷ÔÚä¯ÀÀÆ÷ÖĞË®Æ½¾ÓÖĞ*/
+	margin: 0 auto; /*è®¾ç½®æ•´ä¸ªå®¹å™¨åœ¨æµè§ˆå™¨ä¸­æ°´å¹³å±…ä¸­*/
 	background-color: red;
 }
 
@@ -20,7 +54,7 @@ html, body {
 	background: -webkit-linear-gradient(left,#3992d0,#317eb4); /* Safari 5.1 - 6 */
   	background: -o-linear-gradient(right,#3992d0,#317eb4); /* Opera 11.1 - 12*/
   	background: -moz-linear-gradient(right,#3992d0,#317eb4); /* Firefox 3.6 - 15*/
-  	background: linear-gradient(to right, #3992d0, #317eb4); /* ±ê×¼µÄÓï·¨ */
+  	background: linear-gradient(to right, #3992d0, #317eb4); /* æ ‡å‡†çš„è¯­æ³• */
 }
 .menubar{
 	background: #C9F;
@@ -39,21 +73,21 @@ html, body {
 	width: 15%;
 	top:0px;
 	left:0px;
-	float: left; /*ÉèÖÃ¸¡¶¯£¬ÊµÏÖ¶àÁĞĞ§¹û£¬div+Css²¼¾ÖÖĞºÜÖØÒªµÄ*/
+	float: left; /*è®¾ç½®æµ®åŠ¨ï¼Œå®ç°å¤šåˆ—æ•ˆæœï¼Œdiv+Csså¸ƒå±€ä¸­å¾ˆé‡è¦çš„*/
 	background: -webkit-linear-gradient(#3992d0,#317eb4); /* Safari 5.1 - 6 */
   	background: -o-linear-gradient(#3992d0,#317eb4); /* Opera 11.1 - 12*/
   	background: -moz-linear-gradient(#3992d0,#317eb4); /* Firefox 3.6 - 15*/
-  	background: linear-gradient(#3992d0, #317eb4); /* ±ê×¼µÄÓï·¨ */
+  	background: linear-gradient(#3992d0, #317eb4); /* æ ‡å‡†çš„è¯­æ³• */
 }
 
 .menubar-Main {
 	height: 100%;
 	width: 85%;
-	float: left; /*ÉèÖÃ¸¡¶¯£¬ÊµÏÖ¶àÁĞĞ§¹û£¬div+Css²¼¾ÖÖĞºÜÖØÒªµÄ*/
+	float: left; /*è®¾ç½®æµ®åŠ¨ï¼Œå®ç°å¤šåˆ—æ•ˆæœï¼Œdiv+Csså¸ƒå±€ä¸­å¾ˆé‡è¦çš„*/
 	background: -webkit-linear-gradient(#3992d0,#317eb4); /* Safari 5.1 - 6 */
   	background: -o-linear-gradient(#3992d0,#317eb4); /* Opera 11.1 - 12*/
   	background: -moz-linear-gradient(#3992d0,#317eb4); /* Firefox 3.6 - 15*/
-  	background: linear-gradient(#3992d0, #317eb4); /* ±ê×¼µÄÓï·¨ */
+  	background: linear-gradient(#3992d0, #317eb4); /* æ ‡å‡†çš„è¯­æ³• */
 	text-align:left; 
 }
 .logo {
@@ -87,18 +121,18 @@ html, body {
 	width: 20%;
 	top:0px;
 	left:0px;
-	float: left; /*ÉèÖÃ¸¡¶¯£¬ÊµÏÖ¶àÁĞĞ§¹û£¬div+Css²¼¾ÖÖĞºÜÖØÒªµÄ*/
+	float: left; /*è®¾ç½®æµ®åŠ¨ï¼Œå®ç°å¤šåˆ—æ•ˆæœï¼Œdiv+Csså¸ƒå±€ä¸­å¾ˆé‡è¦çš„*/
 	background-color: black;
 }
 
 .Content-Main {
 	height: 100%;
 	width: 85%;
-	float: left; /*ÉèÖÃ¸¡¶¯£¬ÊµÏÖ¶àÁĞĞ§¹û£¬div+Css²¼¾ÖÖĞºÜÖØÒªµÄ*/
+	float: left; /*è®¾ç½®æµ®åŠ¨ï¼Œå®ç°å¤šåˆ—æ•ˆæœï¼Œdiv+Csså¸ƒå±€ä¸­å¾ˆé‡è¦çš„*/
 	background-color: #ffffff;
 	overflow: auto;
 }
-/*×¢£ºContent-LeftºÍContent-MainÔªËØÊÇContentÔªËØµÄ×ÓÔªËØ£¬Á½¸öÔªËØÊ¹ÓÃÁËfloat:left;ÉèÖÃ³ÉÁ½ÁĞ£¬Õâ¸öÁ½¸öÔªËØµÄ¿í¶ÈºÍÕâ¸öÁ½¸öÔªËØÉèÖÃµÄpadding¡¢marginµÄºÍÒ»¶¨²»ÄÜ´óÓÚ¸¸²ãContentÔªËØµÄ¿í¶È£¬·ñÔòÉèÖÃÁĞ½«Ê§°Ü*/
+/*æ³¨ï¼šContent-Leftå’ŒContent-Mainå…ƒç´ æ˜¯Contentå…ƒç´ çš„å­å…ƒç´ ï¼Œä¸¤ä¸ªå…ƒç´ ä½¿ç”¨äº†float:left;è®¾ç½®æˆä¸¤åˆ—ï¼Œè¿™ä¸ªä¸¤ä¸ªå…ƒç´ çš„å®½åº¦å’Œè¿™ä¸ªä¸¤ä¸ªå…ƒç´ è®¾ç½®çš„paddingã€marginçš„å’Œä¸€å®šä¸èƒ½å¤§äºçˆ¶å±‚Contentå…ƒç´ çš„å®½åº¦ï¼Œå¦åˆ™è®¾ç½®åˆ—å°†å¤±è´¥*/
 .Footer {
 	background: #9CF;
 	width: 100%;
@@ -114,7 +148,7 @@ html, body {
 	background: -webkit-linear-gradient(#317eb4,#3992d0); /* Safari 5.1 - 6 */
   	background: -o-linear-gradient(#317eb4,#3992d0); /* Opera 11.1 - 12*/
   	background: -moz-linear-gradient(#317eb4,#3992d0); /* Firefox 3.6 - 15*/
-  	background: linear-gradient(#317eb4, #3992d0); /* ±ê×¼µÄÓï·¨ */
+  	background: linear-gradient(#317eb4, #3992d0); /* æ ‡å‡†çš„è¯­æ³• */
 }
 
 .Clear {
